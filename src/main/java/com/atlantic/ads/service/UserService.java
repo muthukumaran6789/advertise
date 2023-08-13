@@ -1,0 +1,7 @@
+package com.atlantic.ads.service;
+
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+public interface UserService {
+    UserDetailsService userDetailsService();
+}
